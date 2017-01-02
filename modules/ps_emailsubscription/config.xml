@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_emailsubscription</name>
+    <displayName><![CDATA[E-mail subscription form]]></displayName>
+    <version><![CDATA[1.1.6]]></version>
+    <description><![CDATA[Adds a block for newsletter subscription.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <confirmUninstall><![CDATA[Are you sure that you want to delete all of your contacts?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

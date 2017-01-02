@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_currencyselector</name>
+    <displayName><![CDATA[Currency selector]]></displayName>
+    <version><![CDATA[1.0.3]]></version>
+    <description><![CDATA[Adds a block allowing customers to choose their preferred shopping currency.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

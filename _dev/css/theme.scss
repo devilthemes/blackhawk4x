@@ -1,0 +1,107 @@
+@import "bootstrap";
+@import "font-awesome";
+
+/* COLOR */
+$darkest-color:#000;
+$lightest-color:#fff;
+$gray-color:#ccc;
+
+/* FONT */
+$fat-font:'Oswald', sans-serif;
+.header-nav{
+	background:$darkest-color;
+	color:$lightest-color;
+	position:relative;
+	z-index:4;
+	a,span{
+		color:$lightest-color;
+		text-decoration:none;
+		&:hover{
+			text-decoration:none;
+		}
+	}
+	/* User Info */
+	.user-info{padding-top:7px;}
+	
+	/* Shopping Cart*/
+	.blockcart{float:right;
+		&.close{color:$lightest-color; opacity:0.8; font-weight:normal;
+			a,span{}
+			i{font-size:20px; margin-right:5px;}
+		}
+		a:hover{
+			color:$gray-color;
+			text-decoration:none;
+		}
+		.dropdown-menu{
+			padding:10px;
+			a,span{color:#333}
+			ul.dropdown-item{
+				margin:0px;
+				padding:0px;
+				list-style:none;
+				li{padding:5px 0}
+			}
+		}
+	}
+}
+
+.logo-bar{
+	/* Logo */
+	.logo_block{padding-top:15px; padding-bottom:15px;}
+	
+	/* Searh Block */
+	#search_widget{float:right;padding-top:15px; padding-bottom:15px;
+		.form-inline{float:right}
+	}
+}
+
+/* MENU */
+.navbar{padding-bottom:0px; margin-bottom:0px; position:relative; z-index:3}
+div.menu{
+	ul{
+		list-style:none;
+		margin:0px;
+		padding:0px;
+		li{
+			font-family:$fat-font; font-size:20px; 
+			a{color:$darkest-color; display:block; padding:10px 0;
+				
+			}
+			&>div{
+				display:none;
+				position:absolute;
+				background:$lightest-color;
+				ul{
+					display:block;
+					width:300px;
+					height:auto;
+					border:solid 1px $gray-color;
+					li{
+						font-size:16px; position:relative;
+						a{padding:5px;
+							&:hover{
+								background:$gray-color;
+							}
+						}
+						&>div{
+							margin-left:300px;
+							top:0px;
+						}
+					}
+				}
+			}
+			&:hover{
+				&>div{display:block}
+			}
+		}
+	}
+}
+
+section#content{border-top:solid 1px #fff}
+
+/* page */
+body#index{
+	.breadcrumb{display:none}
+	header.page-header{display:none}
+}
