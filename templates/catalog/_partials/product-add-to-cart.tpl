@@ -4,12 +4,12 @@
     {block name='product_quantity'}
       <p class="product-quantity">
         <label for="quantity_wanted">{l s='Quantity'}</label>
-        <input
+        <input 
           type="number"
           name="qty"
           id="quantity_wanted"
           value="{$product.quantity_wanted}"
-          class="input-group"
+          class="input-group "
           min="{$product.minimal_quantity}"
         >
       </p>
@@ -27,7 +27,7 @@
       </p>
     {/block}
 
-    <button class="add-to-cart" type="submit" name="add" data-button-action="add-to-cart" {if !$product.add_to_cart_url}disabled{/if}>
+    <button class="add-to-cart btn btn-primary btn-lg" type="submit" name="add" data-button-action="add-to-cart" {if !$product.add_to_cart_url}disabled{/if}>
       {l s='Add to cart' d='Shop.Theme.Actions'}
     </button>
 

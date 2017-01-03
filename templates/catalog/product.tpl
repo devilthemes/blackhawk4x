@@ -39,21 +39,23 @@
     {/block}
 
     {block name='page_content_container'}
-      <section id="content" class="page-content">
+      <section id="content" class="page-content row">
         {block name='page_content'}
-          {block name='product_flags'}
+          
+		<div class="col-sm-4 col-xs-12">
+		{block name='product_flags'}
             <ul class="product-flags">
               {foreach from=$product.flags item=flag}
                 <li>{$flag.label}</li>
               {/foreach}
             </ul>
           {/block}
-
+		  
           {block name='product_cover_tumbnails'}
             {include file='catalog/_partials/product-cover-thumbnails.tpl'}
           {/block}
-
-          <div class="product-information">
+		</div>
+          <div class="product-information col-sm-4 col-xs-12">
             {block name='product_reference'}
               {if $product.reference}
                 <p id="product-reference">
@@ -109,7 +111,8 @@
             {/block}
           </div>
 
-          <div class="product-actions">
+          <div class="product-actions col-sm-4 col-xs-12">
+		  <div class="inner">
             {block name='product_buy'}
               <form action="{$urls.pages.cart}" method="post" id="add-to-cart-or-refresh">
                 <input type="hidden" name="token" value="{$static_token}">
@@ -134,11 +137,12 @@
                 {/block}
               </form>
             {/block}
-          </div>
-
-          {block name='product_discounts'}
+			 {block name='product_discounts'}
             {include file='catalog/_partials/product-discounts.tpl'}
           {/block}
+          </div>
+		</div>
+         
 
           {if $product.is_customizable && count($product.customizations.fields)}
             {block name='product_customization'}

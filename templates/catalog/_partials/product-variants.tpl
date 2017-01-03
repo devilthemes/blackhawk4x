@@ -1,6 +1,6 @@
-<div class="product-variants">
+<ul class="product-variants">
   {foreach from=$groups key=id_attribute_group item=group}
-    <div>
+    <li>
       <label for="group_{$id_attribute_group}">{$group.name}</label>
       {if $group.group_type == 'select'}
         <select
@@ -19,7 +19,7 @@
           {/foreach}
         </select>
       {else if $group.group_type == 'color'}
-        <ul id="group_{$id_attribute_group}">
+        <ul id="group_{$id_attribute_group}" class="color">
           {foreach from=$group.attributes key=id_attribute item=group_attribute}
             <li class="input-container">
               <input
@@ -30,11 +30,11 @@
                 value="{$id_attribute}"{if $group_attribute.selected}
                 checked="checked"{/if}
               >
-              <span
+              <span class="color-code"
                 {if $group_attribute.html_color_code} style="background-color: {$group_attribute.html_color_code}" {/if}
                 {if $group_attribute.texture} style="background-image: url({$group_attribute.texture})" {/if}
               >
-                <span>{$group_attribute.name}</span>
+                <span class="sr-only">{$group_attribute.name}</span>
               </span>
             </li>
           {/foreach}
@@ -55,6 +55,6 @@
           {/foreach}
         </ul>
       {/if}
-    </div>
+    </li>
   {/foreach}
-</div>
+</ul>

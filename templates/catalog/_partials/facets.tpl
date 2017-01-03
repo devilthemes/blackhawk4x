@@ -1,8 +1,8 @@
-<div id="search_filters">
+<div id="search_filters" class="block search_filters">
   {foreach from=$facets item="facet"}
     {if $facet.displayed}
       <section class="facet">
-        <h1 class="h3">{$facet.label}</h1>
+        <h3 class="h3">{$facet.label}</h3>
         {if $facet.widgetType !== 'dropdown'}
           <ul>
             {foreach from=$facet.filters item="filter"}

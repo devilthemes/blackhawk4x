@@ -24,12 +24,12 @@
 *}
 
 <section class="block new-product">
-  <h1>{l s='New products' d='Modules.Newproducts.Shop'}</h1>
-  <ul class="products">
+  <h2>{l s='New products' d='Modules.Newproducts.Shop'}</h2>
+ 
     {foreach from=$products item="product"}
       {include file="catalog/_partials/miniatures/product.tpl" product=$product}
     {/foreach}
-  </ul>
+ 
   <div class="all_links"><a href="{$allNewProductsLink}" class="btn btn-default">{l s='All new products' d='Modules.Newproducts.Shop'}</a></div>
 </section>
 

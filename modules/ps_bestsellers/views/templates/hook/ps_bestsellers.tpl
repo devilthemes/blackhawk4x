@@ -24,10 +24,10 @@
 *}
 <section class="block best-seller">
   <h2>{l s='Best Sellers' d='Modules.Bestsellers.Shop'}</h2>
-  <ul class="products">
+ 
     {foreach from=$products item="product"}
       {include file="catalog/_partials/miniatures/product.tpl" product=$product}
     {/foreach}
-  </ul>
+
  <div class="all_links"> <a href="{$allBestSellers}" class="btn btn-default">{l s='All best sellers' d='Modules.Bestsellers.Shop'}</a></div>
 </section>

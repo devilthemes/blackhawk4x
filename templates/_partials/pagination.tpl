@@ -1,6 +1,6 @@
-<nav class="pagination">
+<nav class="pagination-wrapper">
   {l s='Showing %from%-%to% of %total% item(s)' sprintf=['%from%' => $pagination.items_shown_from ,'%to%' => $pagination.items_shown_to, '%total%' => $pagination.total_items] d='Shop.Theme.Catalog'}
-  <ul>
+  <ul class="pagination">
     {foreach from=$pagination.pages item="page"}
       <li {if $page.current} class="current" {/if}>
         {if $page.type === 'spacer'}

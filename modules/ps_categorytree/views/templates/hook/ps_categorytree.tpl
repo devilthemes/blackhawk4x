@@ -40,8 +40,8 @@
   {/strip}
 {/function}
 
-<div class="category-tree">
-  <ul>
+<div class="category-tree block">
+  <ul class="list line">
     <li><a href="{$categories.link nofilter}">{$categories.name}</a></li>
     <li>{categories nodes=$categories.children}</li>
   </ul>

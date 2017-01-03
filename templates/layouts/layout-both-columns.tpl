@@ -28,7 +28,7 @@
       {/block}
 
       {block name='left_column'}
-        <div id="left-column" class="col-sm-4 col-xs-12">
+        <div id="left-column" class="col-sm-3 col-xs-12">
           {if $page.page_name == 'product'}
             {hook h='displayLeftColumnProduct'}
           {else}
@@ -38,7 +38,7 @@
       {/block}
 
       {block name='right_column'}
-        <div id="right-column" class="col-sm-4 col-xs-12">
+        <div id="right-column" class="col-sm-3 col-xs-12">
           {if $page.page_name == 'product'}
             {hook h='displayRightColumnProduct'}
           {else}
@@ -48,7 +48,7 @@
       {/block}
 
       {block name='content_wrapper'}
-        <div id="content-wrapper" class="left-column right-column col-sm-8 col-xs-12">
+        <div id="content-wrapper" class="left-column right-column col-sm-9 col-xs-12">
           {block name='content'}
             <p>Hello world! This is HTML5 Boilerplate.</p>
           {/block}

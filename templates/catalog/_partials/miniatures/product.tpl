@@ -1,3 +1,5 @@
+<ul class="products">
+
 <li class="col-sm-3 item col-xs-12">
 <article class="product-miniature" data-id-product="{$product.id_product}" data-id-product-attribute="{$product.id_product_attribute}" itemscope itemtype="http://schema.org/Product">
 

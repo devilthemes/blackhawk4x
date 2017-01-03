@@ -1,4 +1,4 @@
-# PrestaShop Starter Theme
+# PrestaShop blackhawk4x Theme
 
 [![Build Status](https://travis-ci.org/PrestaShop/StarterTheme.svg?branch=master)](https://travis-ci.org/PrestaShop/StarterTheme)
 

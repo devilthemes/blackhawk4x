@@ -11,5 +11,5 @@
     {include file='_partials/pagination.tpl' pagination=$listing.pagination}
   {/block}
 
-  <div><a href="#header">{l s='Back to top' d='Shop.Actions'}</a></div>
+  <div class="gotop"><a href="#header"><i class="fa fa-chevron-up"></i><span class="sr-only">{l s='Back to top' d='Shop.Actions'}</span></a></div>
 </div>
