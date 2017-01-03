@@ -25,7 +25,7 @@
 *}
 
 {block name='ps_social_follow'}
-  <div class="ps-social-follow">
+  <div class="ps-social-follow col-sm-2 col-md-3 col-xs-12">
     <h4>{l s='Follow us' d='Modules.SocialFollow.Shop'}</h4>
     <ul>
       {foreach from=$social_links item='social_link'}

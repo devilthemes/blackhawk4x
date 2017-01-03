@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>ps_bestsellers</name>
+	<displayName><![CDATA[Top-sellers block]]></displayName>
+	<version><![CDATA[1.0.3]]></version>
+	<description><![CDATA[Adds a block displaying your store&#039;s top-selling products.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

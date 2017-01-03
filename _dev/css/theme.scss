@@ -5,9 +5,13 @@
 $darkest-color:#000;
 $lightest-color:#fff;
 $gray-color:#ccc;
+$danger-color:#ff0000;
+$success-color:#25bb6b;
 
 /* FONT */
 $fat-font:'Oswald', sans-serif;
+
+header#header{padding-bottom:15px;}
 .header-nav{
 	background:$darkest-color;
 	color:$lightest-color;
@@ -98,7 +102,82 @@ div.menu{
 	}
 }
 
-section#content{border-top:solid 1px #fff}
+/**/
+#wrapper{padding:0 0 20px 0}
+
+/* HOME SLIDER */
+.homeslider-container{
+ margin:0px;
+}
+
+section#content{border-top:solid 1px #fff;
+	h2{
+		font-family:$fat-font;
+		font-size:25px;
+		padding: 25px 0;
+margin: 0px;
+	}
+	ul.products{
+		li.item{text-align:center;
+			position:relative;
+			min-height:400px;
+			.thumbnail{border-radius:0px}
+			h3{font-size:18px;font-family:$fat-font;}
+			.product-description-short{display:none}
+			.variant-links{
+				position:absolute;
+				top: 10px;
+				right: 25px;
+				width:25px;
+				a.color{
+					display:block;
+					width:25px;
+					height:25px;
+					border:none;
+					text-indent:-999em;
+					border:solid 1px $gray-color;
+					margin-bottom:2px;
+					
+				}
+			}
+			.product-price-and-shipping{
+				.price{font-size:18px;}
+				.regular-price{color:#ff0000; text-decoration:line-through}
+				.discount-percentage{color:#ff0000}
+			}
+			.product-flags{
+				margin:0px; font-size:12px; padding:0px; list-style:none;
+				.discount{}
+				.new{ font-weight:bold}
+				
+			}
+			.product-availability{  font-size:12px;
+					&.available {color:$success-color}
+				} 
+		}
+	}
+	.all_links{clear:both; padding:20px 0}
+}
+
+ul.products{
+	list-style:none;
+	margin:0px; padding:0px;
+}
+
+/* FOOTER */
+footer#footer{
+	background:$darkest-color;
+	color:$lightest-color;
+	padding:35px 0;
+	h4{padding:20px 0}
+	ul{
+		li{
+			color:$lightest-color;
+			a{color:$lightest-color;}
+		}
+	}
+	
+}
 
 /* page */
 body#index{

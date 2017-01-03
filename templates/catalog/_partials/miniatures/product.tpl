@@ -1,3 +1,4 @@
+<li class="col-sm-3 item col-xs-12">
 <article class="product-miniature" data-id-product="{$product.id_product}" data-id-product-attribute="{$product.id_product_attribute}" itemscope itemtype="http://schema.org/Product">
 
   {block name='product_thumbnail'}
@@ -11,7 +12,7 @@
   {/block}
 
   {block name='product_name'}
-    <h1 class="h2" itemprop="name"><a href="{$product.url}">{$product.name}</a></h1>
+    <h3 class="h2" itemprop="name"><a href="{$product.url}">{$product.name}</a></h3>
   {/block}
 
   {block name='product_description_short'}
@@ -79,3 +80,4 @@
   {hook h='displayProductListReviews' product=$product}
 
 </article>
+</li>

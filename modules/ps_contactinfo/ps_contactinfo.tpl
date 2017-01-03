@@ -23,7 +23,7 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-<div class="block-contact">
+<div class="block-contact col-sm-2 col-md-3 col-xs-12">
 	<h4>{l s='Contact us' d='Modules.ContactInfo.Shop'}</h4>
     {$contact_infos.address.formatted nofilter}
     {if $contact_infos.phone}

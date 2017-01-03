@@ -23,12 +23,12 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-<section class="block featured-product">
-  <h2>{l s='Featured Products' d='Modules.FeaturedProducts.Shop'}</h2>
+<section class="block special-product">
+  <h2>{l s='On sale' d='Modules.Specials.Shop'}</h2>
   <ul class="products">
     {foreach from=$products item="product"}
       {include file="catalog/_partials/miniatures/product.tpl" product=$product}
     {/foreach}
   </ul>
-  <div class="all_links"><a href="{$allProductsLink}" class="btn btn-default">{l s='All products' d='Modules.FeaturedProducts.Shop'}</a></div>
+ <div class="all_links"> <a href="{$allSpecialProductsLink}" class="btn btn-default">{l s='All sale products' d='Modules.Specials.Shop'}</a></a>
 </section>

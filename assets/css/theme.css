@@ -8132,6 +8132,9 @@ button.close {
 
 /* COLOR */
 /* FONT */
+header#header {
+  padding-bottom: 15px; }
+
 .header-nav {
   background: #000;
   color: #fff;
@@ -8222,8 +8225,83 @@ div.menu ul {
     div.menu ul li:hover > div {
       display: block; }
 
+/**/
+#wrapper {
+  padding: 0 0 20px 0; }
+
+/* HOME SLIDER */
+.homeslider-container {
+  margin: 0px; }
+
 section#content {
   border-top: solid 1px #fff; }
+  section#content h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    padding: 25px 0;
+    margin: 0px; }
+  section#content ul.products li.item {
+    text-align: center;
+    position: relative;
+    min-height: 400px; }
+    section#content ul.products li.item .thumbnail {
+      border-radius: 0px; }
+    section#content ul.products li.item h3 {
+      font-size: 18px;
+      font-family: "Oswald", sans-serif; }
+    section#content ul.products li.item .product-description-short {
+      display: none; }
+    section#content ul.products li.item .variant-links {
+      position: absolute;
+      top: 10px;
+      right: 25px;
+      width: 25px; }
+      section#content ul.products li.item .variant-links a.color {
+        display: block;
+        width: 25px;
+        height: 25px;
+        border: none;
+        text-indent: -999em;
+        border: solid 1px #ccc;
+        margin-bottom: 2px; }
+    section#content ul.products li.item .product-price-and-shipping .price {
+      font-size: 18px; }
+    section#content ul.products li.item .product-price-and-shipping .regular-price {
+      color: #ff0000;
+      text-decoration: line-through; }
+    section#content ul.products li.item .product-price-and-shipping .discount-percentage {
+      color: #ff0000; }
+    section#content ul.products li.item .product-flags {
+      margin: 0px;
+      font-size: 12px;
+      padding: 0px;
+      list-style: none; }
+      section#content ul.products li.item .product-flags .new {
+        font-weight: bold; }
+    section#content ul.products li.item .product-availability {
+      font-size: 12px; }
+      section#content ul.products li.item .product-availability.available {
+        color: #25bb6b; }
+  section#content .all_links {
+    clear: both;
+    padding: 20px 0; }
+
+ul.products {
+  list-style: none;
+  margin: 0px;
+  padding: 0px; }
+
+/* FOOTER */
+footer#footer {
+  background: #000;
+  color: #fff;
+  padding: 35px 0; }
+  footer#footer h4 {
+    padding: 20px 0; }
+  footer#footer ul li {
+    color: #fff; }
+    footer#footer ul li a {
+      color: #fff; }
 
 /* page */
 body#index .breadcrumb {
