@@ -9,11 +9,7 @@
       {include file='checkout/_partials/cart-detailed.tpl' cart=$cart}
     {/block}
 
-    {block name='continue_shopping'}
-      <a href="{$urls.pages.index}">
-        {l s='Continue shopping' d='Shop.Theme.Actions'}
-      </a>
-    {/block}
+   
 
     <div>
       {hook h='displayShoppingCartFooter'}
@@ -35,7 +31,14 @@
         {/block}
 
         {block name='cart_actions'}
-          <div>
+          <div class="pagination">
+			
+			{block name='continue_shopping'}
+			<a href="{$urls.pages.index}">
+			{l s='Continue shopping' d='Shop.Theme.Actions'}
+			</a>
+			{/block}
+			
             {if $cart.minimalPurchaseRequired}
               <div class="notification notification-warning" role="alert" data-alert="warning">
                 {$cart.minimalPurchaseRequired}

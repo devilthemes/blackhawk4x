@@ -6,10 +6,12 @@
   {/block}
 
   {block name='product_images'}
-    <ul class="product-images">
+ 
+    <ul class="product-images bxslider">
       {foreach from=$product.images item=image}
-        <li><img src="{$image.medium.url}" alt="{$image.legend}" title="{$image.legend}" width="100" itemprop="image"></li>
+        <li><a data-url="{$image.large.url}"><img src="{$image.medium.url}" alt="{$image.legend}" title="{$image.legend}" width="100" itemprop="image"></a></li>
       {/foreach}
     </ul>
+	
   {/block}
 </div>

@@ -1,11 +1,13 @@
-<span class="product-image"><img src="{$product.cover.small.url}"></span>
-<span class="product-name"><a href="{$product.url}">{$product.name}</a></span>
+<span class="product-image td"><img src="{$product.cover.small.url}"></span>
+<span class="product-name td"><a href="{$product.url}">{$product.name}</a>
+<span class="attributes ">
 {foreach from=$product.attributes key="attribute" item="value"}
   <span class="product-attributes">
     <span class="label">{$attribute}:</span>
     <span class="value">{$value}</span>
   </span>
 {/foreach}
+
 {if $product.customizations|count}
   {foreach from=$product.customizations item="customization"}
     {foreach from=$customization.fields item="field"}
@@ -28,18 +30,24 @@
 {/if}
 
 <span class="product-availability">{$product.availability}</span>
-<span class="product-price">{$product.price}</span>
+</span>
+
+</span>
+<span class="product-price td">{$product.price}</span>
 {if $product.unit_price_full}
   <small class="sub">{$product.unit_price_full}</small>
 {/if}
-
-{if $product.down_quantity_url}
-  <a href="{$product.down_quantity_url}" class="js-decrease-product-quantity" data-link-action="update-quantity">-</a>
-{/if}
+<span class="td">
 <span class="product-quantity">{$product.quantity}</span>
-{if $product.up_quantity_url}
-  <a href="{$product.up_quantity_url}" class="js-increase-product-quantity" data-link-action="update-quantity">+</a>
+{if $product.down_quantity_url}
+  <a href="{$product.down_quantity_url}" class="btn btn-default  js-decrease-product-quantity" data-link-action="update-quantity"><i class="fa fa-minus"></i></a>
 {/if}
+
+{if $product.up_quantity_url}
+  <a href="{$product.up_quantity_url}" class="btn btn-default  js-increase-product-quantity" data-link-action="update-quantity"><i class="fa fa-plus"></i></a>
+{/if}
+</span>
+<span class="td">
 <a
   class="remove-from-cart"
   data-link-action="remove-from-cart"
@@ -48,9 +56,14 @@
   href="{$product.remove_from_cart_url}"
   rel="nofollow"
  >
+  <i class="fa fa-trash"></i>
+  <span class="sr-only">
   {l s='Remove' d='Shop.Theme.Actions'}
+  </span>
 </a>
-
+</span>
+<span class="td">
 {hook h='displayCartExtraProductActions' product=$product}
 
 <span class="product-price">{$product.total}</span>
+</span>

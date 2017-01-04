@@ -79,9 +79,7 @@
               <div id="product-description-short" itemprop="description">{$product.description_short nofilter}</div>
             {/block}
 
-            {block name='product_description'}
-              <div id="product-description">{$product.description nofilter}</div>
-            {/block}
+           
 
             {block name='product_quantities'}
               {if $product.show_quantities}
@@ -149,10 +147,16 @@
               {include file='catalog/_partials/product-customization.tpl' customizations=$product.customizations}
             {/block}
           {/if}
-
+		  
+		   {block name='product_description'}
+              <div id="product-description" class="product-block">
+			 <h3> {l s='Description' d='Shop.Theme.Catalog'}</h3>
+			  {$product.description nofilter}</div>
+            {/block}
+		  
           {block name='product_features'}
             {if $product.features}
-              <section class="product-features">
+              <section class="product-features product-block">
                 <h3>{l s='Data sheet' d='Shop.Theme.Catalog'}</h3>
                 <ul>
                   {foreach from=$product.features item=feature}

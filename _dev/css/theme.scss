@@ -302,8 +302,11 @@ body#category{
 	}
 }
 
-
+/* Product */
 body#product{
+	.product-flags{ list-style:none; margin:0px 0 10px 0; padding:0px;
+		 li {display:inline-block; border:solid 2px $gray-color; padding:3px 5px; }
+	}
 	.product-actions{
 		.inner{
 			border:solid 5px $gray-color;
@@ -317,7 +320,7 @@ body#product{
 			}
 		}
 		ul.product-variants{
-			list-style:none; margin:0px; padding:0px;
+			list-style:none; margin:0px; padding:15px 0;
 			li{
 				border-bottom:solid 1px $gray-color; overflow:hidden; padding-bottom:5px;
 				
@@ -325,7 +328,7 @@ body#product{
 					list-style:none; margin:0px; padding:0px;
 					li{
 						position:relative; float:left; border:none; margin-right:2px;
-						input{opacity:0.3; display:block; position:absolute; width:25px; height:25px; margin:0px;}
+						input{opacity:0; display:block; position:absolute; width:25px; height:25px; margin:0px;}
 						span.color-code{
 							display:block; width:25px; height:25px;
 						}
@@ -338,10 +341,76 @@ body#product{
 			display:block;
 		}
 	}
-	
-	.product-features{
+	.images-container{
+		.bx-controls{position:relative;
+			.bx-next{position: absolute; right: 0px; top: -59px;
+				&.disabled{display:none}
+			}
+			.bx-prev{position: absolute; left: 0px; top: -59px;
+				&.disabled{display:none}
+			}
+		}
+	}
+	.product-block{
+		  border-top:solid 1px $gray-color; padding:20px;
 		clear:both; display:block;
-		h3{font-size:20px; font-family:$fat-font;}
+		h3{font-size:20px; font-family:$fat-font;
+			margin:10px 0;
+		}
+	}
+}
+
+/* Cart */
+body#cart{
+	.cart-overview{
+		.body{
+			&>ul{
+				list-style:none; margin:0px; padding:15px 0;
+				li{
+					border-bottom:solid 1px $gray-color;
+				}
+			}
+			ul.grid-table{
+				display:table;
+				li.tr{
+					display:table-row;
+					span.td{
+						display:table-cell;
+						vertical-align:top;
+						padding:10px 0;
+						border-bottom:solid 1px $gray-color;
+						.attributes {
+							clear:both;
+							display:block;
+							.label{color:$primary-color;}
+							.value{font-size:12px;}
+						}
+						.remove-from-cart{
+							font-size:20px;
+							i{color:$danger-color}
+						}
+						
+					&:nth-child(1){
+						width:15%;
+					}
+					&:nth-child(2){
+						width:35%;
+					}
+					&:nth-child(3){
+						width:10%;
+					}
+					&:nth-child(4){
+						width:25%;
+					}
+					&:nth-child(5){
+						width:15%;
+					}
+					
+					}
+					
+				}
+			}
+		}
 	}
 }
 .pagination-wrapper{clear:both; display:block}
