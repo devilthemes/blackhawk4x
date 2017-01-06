@@ -34,7 +34,7 @@
           <div class="pagination">
 			
 			{block name='continue_shopping'}
-			<a href="{$urls.pages.index}">
+			<a href="{$urls.pages.index}" class="btn btn-default align-left">
 			{l s='Continue shopping' d='Shop.Theme.Actions'}
 			</a>
 			{/block}
@@ -47,7 +47,7 @@
             {elseif empty($cart.products)}
               <button disabled>{l s='Checkout' d='Shop.Theme.Actions'}</button>
             {else}
-              <a href="{$urls.pages.order}">{l s='Checkout' d='Shop.Theme.Actions'}</a>
+              <a href="{$urls.pages.order}" class="btn btn-primary align-right">{l s='Checkout' d='Shop.Theme.Actions'}</a>
               {hook h='displayExpressCheckout'}
             {/if}
           </div>

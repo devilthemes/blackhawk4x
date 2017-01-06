@@ -3,6 +3,7 @@
 {/foreach}
  <script type="text/javascript" src="{$urls.js_url}bxslider/jquery.bxslider.js"></script>
  <script type="text/javascript" src="{$urls.js_url}bxslider/plugins/jquery.easing.1.3.js"></script>
+ <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 {foreach $javascript.inline as $js}
   <script type="text/javascript">
     {$js.content nofilter}

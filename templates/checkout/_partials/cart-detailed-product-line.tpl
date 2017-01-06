@@ -62,8 +62,6 @@
   </span>
 </a>
 </span>
-<span class="td">
-{hook h='displayCartExtraProductActions' product=$product}
-
+<span class="td">{hook h='displayCartExtraProductActions' product=$product}
 <span class="product-price">{$product.total}</span>
 </span>

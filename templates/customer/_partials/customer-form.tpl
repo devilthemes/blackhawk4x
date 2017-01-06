@@ -1,6 +1,6 @@
 {include file='_partials/form-errors.tpl' errors=$errors['']}
 
-<form action="{$action}" id="customer-form" method="post">
+<form action="{$action}" id="customer-form" method="post" class="form-horizontal">
 
   <section class="form-fields">
     {block "form_fields"}

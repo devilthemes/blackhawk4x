@@ -3,7 +3,7 @@
 
   <head>
     {block name='head'}
-      {include file='_partials/head.tpl'}
+      {include file='../_partials/head.tpl'}
     {/block}
   </head>
 
@@ -11,7 +11,7 @@
 
     <header id="header">
       {block name='header'}
-        {include file='checkout/_partials/header.tpl'}
+        {include file='../_partials/header.tpl'}
       {/block}
     </header>
 
@@ -20,17 +20,23 @@
     {/block}
 
     {block name='content'}
-    <section id="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+			<section id="content">
 
-      {include  file          = 'checkout/_partials/cart-summary.tpl'
-                cart          = $cart
-      }
+			  {include  file          = 'checkout/_partials/cart-summary.tpl'
+						cart          = $cart
+			  }
 
-      {render   file  = 'checkout/checkout-process.tpl'
-                ui    = $checkout_process
-      }
+			  {render   file  = 'checkout/checkout-process.tpl'
+						ui    = $checkout_process
+			  }
 
-    </section>
+			</section>
+			</div>
+		</div>
+	</div>
     {/block}
 
     <footer id="footer">
