@@ -7,13 +7,32 @@ $lightest-color:#fff;
 $gray-color:#ccc;
 $light-gray-color:#f4f4f4;
 $danger-color:#ff0000;
-$success-color:#25bb6b;
+$success-color:#50cb8a;
 $primary-color:#333;
 
 /* FONT */
 $fat-font:'Oswald', sans-serif;
 $default-font:arial,sans;
 
+h3{font-size:20px; font-family:$fat-font;}
+.clear-ul{margin:0px; padding:0px; list-style:none}
+/* Form */
+.form-horizontal {
+	.radio-inline{
+	
+	
+}
+.form-errors{
+	margin:0px; padding:0px; font-size:12px; color:$danger-color; list-style:none;
+}
+}
+.align-right{text-align:right}
+.box{background:$light-gray-color; border:solid 1px $gray-color; padding:20px; margin:15px 0; 
+	&.bg-success{
+		background:$success-color;
+	}
+}
+.input-group .form-control{border:solid 1px $gray-color}
 header#header{padding-bottom:15px;}
 .header-nav{
 	background:$darkest-color;
@@ -58,7 +77,7 @@ header#header{padding-bottom:15px;}
 	.logo_block{padding-top:15px; padding-bottom:15px;}
 	
 	/* Searh Block */
-	#search_widget{float:right;padding-top:15px; padding-bottom:15px;
+	#search_widget{float:right;padding-top:45px; padding-bottom:45px;
 		.form-inline{float:right}
 	}
 }
@@ -66,7 +85,7 @@ header#header{padding-bottom:15px;}
 /* Bread crumb */
 nav.breadcrumb{
 	overflow:hidden;
-	ol{list-style:none;
+	ol{list-style:none; padding:0px;
 		li{float:left; padding-left:5px;
 		&:after{
 			content:'/';
@@ -91,8 +110,9 @@ div.menu{
 		margin:0px;
 		padding:0px;
 		li{
-			font-family:$fat-font; font-size:20px; 
-			a{color:$darkest-color; display:block; padding:10px 0;
+			font-family:$fat-font; font-size:20px; display:inline-block;
+			a{color:$darkest-color; display:block; padding:10px;
+				&:hover{text-decoration:none}
 				
 			}
 			&>div{
@@ -105,7 +125,7 @@ div.menu{
 					height:auto;
 					border:solid 1px $gray-color;
 					li{
-						font-size:16px; position:relative;
+						font-size:16px; position:relative; display:block;
 						a{padding:5px;
 							&:hover{
 								background:$gray-color;
@@ -490,6 +510,13 @@ body#checkout{
 		}
 	}
 	.content{padding:20px 0;}
+	}
+	
+	/* Payment */
+	.payment-options{
+		dl{
+			dt{clear:both; float:left; width:33%;}
+		}
 	}
 }
 

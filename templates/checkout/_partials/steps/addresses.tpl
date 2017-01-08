@@ -41,12 +41,12 @@
                   interactive=(!$show_delivery_address_form and !$show_invoice_address_form)
         }
       </div>
-
-      <a href="{$new_address_delivery_url}">{l s='Add another address'}</a>
-
+		<p>
+      <a href="{$new_address_delivery_url}" class="btn btn-default">{l s='Add another address'}</a>
+	</p>
       {if $use_same_address && !$cart.is_virtual}
         <p>
-          <a data-link-action="different-invoice-address" href="{$use_different_address_url}">
+          <a data-link-action="different-invoice-address" href="{$use_different_address_url}" class="btn btn-default">
             {l s='Billing address differs from shipping address'}
           </a>
         </p>
@@ -85,7 +85,7 @@
     {/if}
 
     {if !$form_has_continue_button}
-      <button type="submit" class="continue" name="confirm-addresses" value="1">
+      <button type="submit" class="continue btn btn-primary" name="confirm-addresses" value="1">
         {l s='Continue'}
       </button>
     {/if}

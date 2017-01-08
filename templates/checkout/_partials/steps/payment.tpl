@@ -12,9 +12,11 @@
     </p>
 
     <form id="conditions-to-approve" method="GET">
-      <ul>
+      <ul class="clear-ul">
         {foreach from=$conditions_to_approve item="condition" key="condition_name"}
           <li>
+		  <div class="checkbox">
+		  <label for="conditions_to_approve[{$condition_name}]">
             <input  id    = "conditions_to_approve[{$condition_name}]"
                     name  = "conditions_to_approve[{$condition_name}]"
                     required
@@ -22,9 +24,10 @@
                     value = "1"
                     class = "ps-shown-by-js"
             >
-            <label for="conditions_to_approve[{$condition_name}]">
+            
               {$condition nofilter}
             </label>
+			</div>
           </li>
         {/foreach}
       </ul>
@@ -92,7 +95,7 @@
 
   <div id="payment-confirmation">
     <div class="ps-shown-by-js">
-      <button type="submit" {if !$selected_payment_option} disabled {/if}>
+      <button class="btn btn-primary" type="submit" {if !$selected_payment_option} disabled {/if}>
         {l s='Order with an obligation to pay' d='Shop.Theme.Actions'}
       </button>
       {if $show_final_summary}

@@ -10,7 +10,7 @@
         s='Not you? [1]Log out[/1]'
         d='Shop.Theme.CustomerAccount'
         sprintf=[
-          '[1]' => "<a href='{$urls.actions.logout}'>",
+          '[1]' => "<a href='{$urls.actions.logout}' class='btn btn-default'>",
           '[/1]' => "</a>"
         ]
       }
@@ -21,12 +21,12 @@
 
   {elseif $show_login_form}
 
-    <a href="{$urls.pages.order}">{l s='No account?' d='Shop.Theme.CustomerAccount'}</a>
+   <p> <a href="{$urls.pages.order}" class="btn btn-default">{l s='No account?' d='Shop.Theme.CustomerAccount'}</a></p>
     {render file='checkout/_partials/login-form.tpl' ui=$login_form}
 
   {else}
 
-    <a data-link-action="show-login-form" href="{$urls.pages.order_login}">{l s='Already have an account?' d='Shop.Theme.CustomerAccount'} </a>
+    <p><a data-link-action="show-login-form" href="{$urls.pages.order_login}" class="btn btn-default">{l s='Already have an account?' d='Shop.Theme.CustomerAccount'} </a></p>
     {render file='checkout/_partials/customer-form.tpl' ui=$register_form guest_allowed=$guest_allowed}
 
   {/if}

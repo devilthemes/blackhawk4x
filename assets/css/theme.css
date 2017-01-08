@@ -1346,8 +1346,7 @@ a.bg-danger:focus {
 
 .page-header {
   padding-bottom: 9px;
-  margin: 40px 0 20px;
-  border-bottom: 1px solid #eeeeee; }
+  margin: 40px 0 20px; }
 
 ul,
 ol {
@@ -8138,6 +8137,37 @@ button.close {
 
 /* COLOR */
 /* FONT */
+h3 {
+  font-size: 20px;
+  font-family: "Oswald", sans-serif; }
+
+.clear-ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+
+/* Form */
+.form-horizontal .form-errors {
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+  color: #ff0000;
+  list-style: none; }
+
+.align-right {
+  text-align: right; }
+
+.box {
+  background: #f4f4f4;
+  border: solid 1px #ccc;
+  padding: 20px;
+  margin: 15px 0; }
+  .box.bg-success {
+    background: #50cb8a; }
+
+.input-group .form-control {
+  border: solid 1px #ccc; }
+
 header#header {
   padding-bottom: 15px; }
 
@@ -8186,8 +8216,8 @@ header#header {
     padding-bottom: 15px; }
   .logo-bar #search_widget {
     float: right;
-    padding-top: 15px;
-    padding-bottom: 15px; }
+    padding-top: 45px;
+    padding-bottom: 45px; }
     .logo-bar #search_widget .form-inline {
       float: right; }
 
@@ -8195,7 +8225,8 @@ header#header {
 nav.breadcrumb {
   overflow: hidden; }
   nav.breadcrumb ol {
-    list-style: none; }
+    list-style: none;
+    padding: 0px; }
     nav.breadcrumb ol li {
       float: left;
       padding-left: 5px; }
@@ -8220,11 +8251,14 @@ div.menu ul {
   padding: 0px; }
   div.menu ul li {
     font-family: "Oswald", sans-serif;
-    font-size: 20px; }
+    font-size: 20px;
+    display: inline-block; }
     div.menu ul li a {
       color: #000;
       display: block;
-      padding: 10px 0; }
+      padding: 10px; }
+      div.menu ul li a:hover {
+        text-decoration: none; }
     div.menu ul li > div {
       display: none;
       position: absolute;
@@ -8236,7 +8270,8 @@ div.menu ul {
         border: solid 1px #ccc; }
         div.menu ul li > div ul li {
           font-size: 16px;
-          position: relative; }
+          position: relative;
+          display: block; }
           div.menu ul li > div ul li a {
             padding: 5px; }
             div.menu ul li > div ul li a:hover {
@@ -8312,7 +8347,7 @@ section#main {
       section#main ul.products li.item .product-availability {
         font-size: 12px; }
         section#main ul.products li.item .product-availability.available {
-          color: #25bb6b; }
+          color: #50cb8a; }
   section#main .all_links {
     clear: both;
     padding: 20px 0; }
@@ -8490,7 +8525,7 @@ body#product .product-actions .inner {
   body#product .product-actions .inner .product-prices .discount-percentage {
     display: inline-block;
     padding: 3px 5px;
-    border: solid 2px #25bb6b; }
+    border: solid 2px #50cb8a; }
 body#product .product-actions ul.product-variants {
   list-style: none;
   margin: 0px;
@@ -8620,63 +8655,69 @@ body#cart .cart-total {
       text-align: right;
       font-weight: bold; }
 
-body#checkout #js-checkout-summary header h1 {
-  font-family: "Oswald", sans-serif;
-  font-size: 20px; }
-body#checkout #js-checkout-summary #cart-summary-product-list ul {
-  margin: 0px;
-  padding: 0px 0;
-  list-style: none;
-  width: 48%;
-  border: solid 1px #ccc;
-  float: left; }
-  body#checkout #js-checkout-summary #cart-summary-product-list ul li {
-    clear: both;
-    border-bottom: solid 1px #ccc;
-    padding: 5px 20px; }
-body#checkout #js-checkout-summary .cart-summary-totals {
-  width: 48%;
-  border: solid 1px #ccc;
-  float: right; }
-  body#checkout #js-checkout-summary .cart-summary-totals .cart-summary-totals {
-    clear: both;
-    border-bottom: solid 1px #ccc;
-    padding: 0px; }
-    body#checkout #js-checkout-summary .cart-summary-totals .cart-summary-totals .label {
-      font-size: 14px;
-      color: #000; }
-body#checkout #js-checkout-summary #cart-summary, body#checkout #js-checkout-summary .cart-summary-totals {
-  border-bottom: solid 1px #ccc; }
-  body#checkout #js-checkout-summary #cart-summary .tr, body#checkout #js-checkout-summary .cart-summary-totals .tr {
-    display: block;
-    clear: both;
-    padding: 5px 20px;
-    width: 100%; }
-    body#checkout #js-checkout-summary #cart-summary .tr .label, body#checkout #js-checkout-summary .cart-summary-totals .tr .label {
-      font-size: 14px;
-      color: #000;
-      width: 150px;
-      float: left; }
-body#checkout .cart-summary-totals {
-  background: #f4f4f4; }
-body#checkout .checkout-step {
-  clear: both;
-  display: block;
-  border: solid 1px #ccc;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: 20px; }
-  body#checkout .checkout-step h3, body#checkout .checkout-step h1 {
+body#checkout {
+  /* Payment */ }
+  body#checkout #js-checkout-summary header h1 {
     font-family: "Oswald", sans-serif;
-    font-size: 20px;
-    margin: 10px 0; }
-    body#checkout .checkout-step h3 .step-number, body#checkout .checkout-step h1 .step-number {
-      padding: 0 10px 0 0;
-      display: inline-block; }
-      body#checkout .checkout-step h3 .step-number:after, body#checkout .checkout-step h1 .step-number:after {
-        content: "."; }
-  body#checkout .checkout-step .content {
-    padding: 20px 0; }
+    font-size: 20px; }
+  body#checkout #js-checkout-summary #cart-summary-product-list ul {
+    margin: 0px;
+    padding: 0px 0;
+    list-style: none;
+    width: 48%;
+    border: solid 1px #ccc;
+    float: left; }
+    body#checkout #js-checkout-summary #cart-summary-product-list ul li {
+      clear: both;
+      border-bottom: solid 1px #ccc;
+      padding: 5px 20px; }
+  body#checkout #js-checkout-summary .cart-summary-totals {
+    width: 48%;
+    border: solid 1px #ccc;
+    float: right; }
+    body#checkout #js-checkout-summary .cart-summary-totals .cart-summary-totals {
+      clear: both;
+      border-bottom: solid 1px #ccc;
+      padding: 0px; }
+      body#checkout #js-checkout-summary .cart-summary-totals .cart-summary-totals .label {
+        font-size: 14px;
+        color: #000; }
+  body#checkout #js-checkout-summary #cart-summary, body#checkout #js-checkout-summary .cart-summary-totals {
+    border-bottom: solid 1px #ccc; }
+    body#checkout #js-checkout-summary #cart-summary .tr, body#checkout #js-checkout-summary .cart-summary-totals .tr {
+      display: block;
+      clear: both;
+      padding: 5px 20px;
+      width: 100%; }
+      body#checkout #js-checkout-summary #cart-summary .tr .label, body#checkout #js-checkout-summary .cart-summary-totals .tr .label {
+        font-size: 14px;
+        color: #000;
+        width: 150px;
+        float: left; }
+  body#checkout .cart-summary-totals {
+    background: #f4f4f4; }
+  body#checkout .checkout-step {
+    clear: both;
+    display: block;
+    border: solid 1px #ccc;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px; }
+    body#checkout .checkout-step h3, body#checkout .checkout-step h1 {
+      font-family: "Oswald", sans-serif;
+      font-size: 20px;
+      margin: 10px 0; }
+      body#checkout .checkout-step h3 .step-number, body#checkout .checkout-step h1 .step-number {
+        padding: 0 10px 0 0;
+        display: inline-block; }
+        body#checkout .checkout-step h3 .step-number:after, body#checkout .checkout-step h1 .step-number:after {
+          content: "."; }
+    body#checkout .checkout-step .content {
+      padding: 20px 0; }
+  body#checkout .payment-options dl dt {
+    clear: both;
+    float: left;
+    width: 33%; }
 
 .pagination {
   clear: both;

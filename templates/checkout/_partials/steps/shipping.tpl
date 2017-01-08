@@ -48,7 +48,7 @@
           {/if}
         </div>
       </div>
-      <button type="submit" class="continue" name="confirmDeliveryOption" value="1">
+      <button type="submit" class="continue btn btn-primary" name="confirmDeliveryOption" value="1">
         {l s='Continue'}
       </button>
       </form>

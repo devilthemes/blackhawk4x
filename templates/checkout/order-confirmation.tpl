@@ -6,12 +6,12 @@
 
 {block name='page_content_container' prepend}
   {if ! empty($HOOK_PAYMENT_RETURN)}
-  <section id="content-hook_payment_return">
+  <section id="content-hook_payment_return" class="box">
     {$HOOK_PAYMENT_RETURN nofilter}
   </section>
   {/if}
 
-  <section id="content-hook_order_confirmation">
+  <section id="content-hook_order_confirmation" class="box bg-success">
     <h3>{l s='Your order is confirmed' d='Shop.Theme.Checkout'}</h3>
     <p>
       {l s='An email has been sent to your mail address %email%.' sprintf=['%email%' => $customer.email] d='Shop.Theme.Checkout'}

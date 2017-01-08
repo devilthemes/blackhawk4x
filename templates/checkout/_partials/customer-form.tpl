@@ -13,7 +13,7 @@
 
 {block "form_buttons"}
   <button
-    class="continue"
+    class="continue btn btn-primary"
     name="continue"
     data-link-action="register-new-customer"
     type="submit"

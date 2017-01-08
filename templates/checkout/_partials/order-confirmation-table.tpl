@@ -2,12 +2,12 @@
 
   <h3>{l s='Order items' d='Shop.Theme.Checkout'}</h3>
 
-  <table>
+  <table class="table">
     {foreach from=$products item=product}
       <tr>
         <td>
           <span class="product-image media-middle">
-            <img class="" src="{$product.cover.medium.url}">
+            <img class="" src="{$product.cover.small.url}">
           </span>
         </td>
         <td>
@@ -61,23 +61,23 @@
 
   <hr>
 
-  <table>
+  <table class="table ">
     {foreach $subtotals as $subtotal}
       {if $subtotal.type !== 'tax'}
         <tr>
-          <td>{$subtotal.label}</td>
-          <td>{$subtotal.value}</td>
+          <td >{$subtotal.label}</td>
+          <td class="align-right">{$subtotal.value}</td>
         </tr>
       {/if}
     {/foreach}
 
     <tr>
       <td>{$totals.total.label} {$labels.tax_short}</td>
-      <td>{$totals.total.value}</td>
+      <td class="align-right">{$totals.total.value}</td>
     </tr>
     <tr>
       <td>{$subtotals.tax.label}</td>
-      <td>{$subtotals.tax.value}</td>
+      <td class="align-right">{$subtotals.tax.value}</td>
     </tr>
   </table>
 
