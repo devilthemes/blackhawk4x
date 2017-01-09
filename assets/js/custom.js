@@ -1,24 +1,22 @@
 $(document).ready(function(){
-	/*
-	$('body#product ul.product-images li a').click(function(){
+	function createBxSlider(){
+		let ele= $('.bxslider').bxSlider({
+			pagerCustom: '#bx-pager'
+		});
+		return ele;
+	}
+	var slider= createBxSlider();
+
+
+	$("#product").on("click",".product-actions ul.product-variants li ul.color li input", function() {
+		//Pre destroying slider before prestashop changes it's HTML DOM
+		slider.destroySlider();
 		
-		//alert($(this).attr('data-url'));
-		$('.product-cover img').attr('src',$(this).attr('data-url'));
-		$('.product-cover a').attr('href',$(this).attr('data-url'));
-	})
-	*/
-	
-	
-	slider =$('.bxslider').bxSlider({
- pagerCustom: '#bx-pager'
-});
-
-
-
-$("body#product .product-actions ul.product-variants li ul.color li input").on( "click", function() {
-	slider.reloadSlider();
-  console.log(true);
-});
+		setTimeout(function(){
+			createBxSlider();
+		},1000); //configurable timeout
+  		
+	});
 
 })
 
