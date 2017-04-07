@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/pukhucom/public_html/demo/blackhawk4x/admin123" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="1625e29c02062efe5dbc42c3efeeebc4">
+        <source>-- please choose --</source>
+        <target>-- please choose --</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="93332134fd11cffbe680dd8afaa521fc">
+        <source>-- day --</source>
+        <target>-- day --</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="9180b4d5ab8103f244c2d4fd661934e2">
+        <source>-- month --</source>
+        <target>-- month --</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="ae1cc541ba45ce670ea7e0e3a30e3205">
+        <source>-- year --</source>
+        <target>-- year --</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="ebb061953c0454b2c8ee7b0ac615ebcd">
+        <source>Optional</source>
+        <target>Optional</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

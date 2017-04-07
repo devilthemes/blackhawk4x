@@ -39,7 +39,6 @@ header#header{padding-bottom:15px;}
 	color:$lightest-color;
 	position:relative;
 	z-index:4;
-	min-height:35px;
 	a,span{
 		color:$lightest-color;
 		text-decoration:none;
@@ -547,8 +546,6 @@ body#checkout{
 			}
 		}
 }
-
-.featured-product{clear:both; display:block; padding-top:20px;}
 .gotop{
 	position:fixed;
 	bottom:30px; right:30px;  width:45px; height:45px;  display:block; 

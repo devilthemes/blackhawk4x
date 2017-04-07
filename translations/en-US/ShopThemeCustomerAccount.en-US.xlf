@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/pukhucom/public_html/demo/blackhawk4x/admin123" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="5238bd0d26ee4c221badd6e6c6475412">
+        <source>Your order</source>
+        <target>Your order</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="0fc5b0bad7e8ab38a2cdcadc05cb248f">
+        <source>Connected as %first_name% %last_name%.</source>
+        <target>Connected as %first_name% %last_name%.</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="8e3ecabff428ab5465ab8feb928436e0">
+        <source>Not you? [1]Log out[/1]</source>
+        <target>Not you? [1]Log out[/1]</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="929c1ec3a80a6e8a557bad8985e63991">
+        <source>No account?</source>
+        <target>No account?</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="21bdc5689c12595ae14298354d5550d5">
+        <source>Already have an account?</source>
+        <target>Already have an account?</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="01a569ddc6cf67ddec2a683f0a5f5956">
+        <source>Forgot your password?</source>
+        <target>Forgot your password?</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="1af342a10e8238b722ba844facf5768b">
+        <source>Request a return</source>
+        <target>Request a return</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="a958dbb46713e59856c35f89e5092a5e">
+        <source>Back to your account</source>
+        <target>Back to your account</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="f5d74ea75357b5e139854c14f8e24fe3">
+        <source>Order details</source>
+        <target>Order details</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="674592d247a228106f4f0d9f81c0d92c">
+        <source>Order Reference %reference% - placed on %date%</source>
+        <target>Order Reference %reference% - placed on %date%</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="e682495785e844d491378817aa34aa3f">
+        <source>Download your invoice as a PDF file.</source>
+        <target>Download your invoice as a PDF file.</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="755bb0834a77079fd1330b555b69e6bf">
+        <source>You have given permission to receive your order in recycled packaging.</source>
+        <target>You have given permission to receive your order in recycled packaging.</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="e14bc5cef02df7369b604ea3885adb96">
+        <source>You have requested gift wrapping for this order.</source>
+        <target>You have requested gift wrapping for this order.</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="4c2a8fe7eaf24721cc7a9f0175115bd4">
+        <source>Message</source>
+        <target>Message</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="46774573a61204e0aac6c4ab10247d3e">
+        <source>Follow your order's status step-by-step</source>
+        <target>Follow your order's status step-by-step</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="ced55d097872ab13bf177e8d31db396f">
+        <source>Click the following link to track the delivery of your order</source>
+        <target>Click the following link to track the delivery of your order</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="cd8ee64ef80cd6bb4e320a7d0563b56f">
+        <source>Return details</source>
+        <target>Return details</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="4aa65c7cc01324ce850c2975f548d637">
+        <source>%number% on %date%</source>
+        <target>%number% on %date%</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="88be9ea838e21273267409d76af3b284">
+        <source>We have logged your return request.</source>
+        <target>We have logged your return request.</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="d45c14e2fb387664ad2a66a2b8f7c0a4">
+        <source>Your package must be returned to us within %number% days of receiving your order.</source>
+        <target>Your package must be returned to us within %number% days of receiving your order.</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="77264630b0f035a114135e26f0e56a5c">
+        <source>The current status of your merchandise return is: [1] %status% [/1]</source>
+        <target>The current status of your merchandise return is: [1] %status% [/1]</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="b24be74c768f02b296d4e8f41be486fb">
+        <source>List of items to be returned:</source>
+        <target>List of items to be returned:</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="92a9774c2a5df29ac4bffb46219ea9cd">
+        <source>Reminder</source>
+        <target>Reminder</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="2b79d007c64009edf92d06f7cb280b25">
+        <source>All merchandise must be returned in its original packaging and in its original state.</source>
+        <target>All merchandise must be returned in its original packaging and in its original state.</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="3407538083069a115822986f5b34b21f">
+        <source>Please print out the [1]returns form[/1] and include it with your package.</source>
+        <target>Please print out the [1]returns form[/1] and include it with your package.</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="2e2d29136e330ac7ba96f9004901be3a">
+        <source>Please check the [1]returns form[/1] for the correct address.</source>
+        <target>Please check the [1]returns form[/1] for the correct address.</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="16dafae9102750489087d1d087b72aba">
+        <source>When we receive your package, we will notify you by email. We will then begin processing order reimbursement.</source>
+        <target>When we receive your package, we will notify you by email. We will then begin processing order reimbursement.</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="f393a2fe17dc0cacff53a136479b845d">
+        <source>Please let us know if you have any questions.</source>
+        <target>Please let us know if you have any questions.</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="f637120d9f24c366b382ede6c21cddf0">
+        <source>If the conditions of return listed above are not respected, we reserve the right to refuse your package and/or reimbursement.</source>
+        <target>If the conditions of return listed above are not respected, we reserve the right to refuse your package and/or reimbursement.</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="24e372d72a306d924e8f1e53900dd7b6">
+        <source>Email address: %email%</source>
+        <target>Email address: %email%</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="4b877ba8588b19f1b278510bf2b57ebb">
+        <source>Log me out</source>
+        <target>Log me out</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="2cbfb6731610056e1d0aaacde07096c1">
+        <source>View my customer account</source>
+        <target>View my customer account</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="d4151a9a3959bdd43690735737034f27">
+        <source>Log in to your customer account</source>
+        <target>Log in to your customer account</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

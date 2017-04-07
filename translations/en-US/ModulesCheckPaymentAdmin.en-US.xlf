@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/pukhucom/public_html/demo/blackhawk4x/admin123" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="14e41f4cfd99b10766cc15676d8cda66">
+        <source>This module allows you to accept payments by check.</source>
+        <target>This module allows you to accept payments by check.</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="22df5428ca8a4d0f5ec081d4815c86f6">
+        <source>If the client chooses this payment method, the order status will change to 'Waiting for payment'.</source>
+        <target>If the client chooses this payment method, the order status will change to 'Waiting for payment'.</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="8c88bbf5712292b26e2a6bbeb0a7b5c4">
+        <source>You will need to manually confirm the order as soon as you receive a check.</source>
+        <target>You will need to manually confirm the order as soon as you receive a check.</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

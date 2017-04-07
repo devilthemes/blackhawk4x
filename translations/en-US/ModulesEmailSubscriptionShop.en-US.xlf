@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/pukhucom/public_html/demo/blackhawk4x/admin123" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="ffb7e666a70151215b4c55c6268d7d72">
+        <source>Newsletter</source>
+        <target>Newsletter</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="625f93a63da35ee7150341160460f31e">
+        <source>Your e-mail</source>
+        <target>Your e-mail</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/pukhucom/public_html/demo/blackhawk4x/admin123" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="fb526aaa0add86e4e124263db50438c8">
+        <source>Showing %from%-%to% of %total% item(s)</source>
+        <target>Showing %from%-%to% of %total% item(s)</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="498007f495e00b14f415d5f6ae6a1362">
+        <source>There are %product_count% products.</source>
+        <target>There are %product_count% products.</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="4d6d585950603fbe94f603e93342025f">
+        <source>There is %product_count% product.</source>
+        <target>There is %product_count% product.</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="53cea05976132fada38935bdc05ad156">
+        <source>%facet_label%: %facet_value%</source>
+        <target>%facet_label%: %facet_value%</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="1be6f9eb563f3bf85c78b4219bf09de9">
+        <source>Brand</source>
+        <target>Brand</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="4594f39c6dac58760daeb19d79389576">
+        <source>Specific References</source>
+        <target>Specific References</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="d502fa4950894baeaeaf3c5195bb8206">
+        <source>Save %percentage%</source>
+        <target>Save %percentage%</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="5e9ce3b8961433dfa8cd441709c78176">
+        <source>Save %amount%</source>
+        <target>Save %amount%</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="e532954941a2469e3b3ae35ce44885d6">
+        <source>%price% tax excl.</source>
+        <target>%price% tax excl.</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="a72a454b308052ed277f7b69ab307caa">
+        <source>Instead of %price%</source>
+        <target>Instead of %price%</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="98508b5a9b590896cc627beb46d86b96">
+        <source>Including %amount% for ecotax</source>
+        <target>Including %amount% for ecotax</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="a134618182b99ff9151d7e0b6b92410a">
+        <source>(not impacted by the discount)</source>
+        <target>(not impacted by the discount)</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="48fa315ec57b5fea80176d1c5f9f6bbf">
+        <source>(%unit_price%)</source>
+        <target>(%unit_price%)</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="fc21aa6a8b0bceb8570c8c81b6b38307">
+        <source>Volume discounts</source>
+        <target>Volume discounts</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="63d5049791d9d79d86e9a108b0a999ca">
+        <source>Reference</source>
+        <target>Reference</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="deb10517653c255364175796ace3553f">
+        <source>Product</source>
+        <target>Product</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="9e2941b3c81256fac10392aaca4ccfde">
+        <source>Condition</source>
+        <target>Condition</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="ea254ced8be4adb6c4a2750e84087da6">
+        <source>Availability date:</source>
+        <target>Availability date:</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="b5a7adde1af5c87d7fd797b6245c2a39">
+        <source>Description</source>
+        <target>Description</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="7dcd185f890fd28f69d1ed210292d77f">
+        <source>Data sheet</source>
+        <target>Data sheet</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="e54a973d0c3342dac6ee7d9e145c6f83">
+        <source>Pack content</source>
+        <target>Pack content</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="98edb85b00d9527ad5acebe451b3fae6">
+        <source>Accessories</source>
+        <target>Accessories</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="84be54bb4bd1b755a27d86388700d097">
+        <source>Brands</source>
+        <target>Brands</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="1814d65a76028fdfbadab64a5a8076df">
+        <source>Suppliers</source>
+        <target>Suppliers</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="d0679d37c204278465192d34b1917c01">
+        <source>List of products by brand %brand_name%</source>
+        <target>List of products by brand %brand_name%</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+      <trans-unit id="bcdf044a723993079e77ec66e4d6cbf2">
+        <source>List of products by supplier %supplier_name%</source>
+        <target>List of products by supplier %supplier_name%</target>
+        <note>Context:
+File: /home/pukhucom/public_html/demo/blackhawk4x/admin123:</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
