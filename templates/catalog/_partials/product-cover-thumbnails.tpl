@@ -10,7 +10,7 @@
  
     <ul class="product_images bxslider">
       {foreach from=$product.images item=image}
-        <li><a href="{$image.large.url}" data-featherlight="image"><img src="{$image.large.url}" alt="{$image.legend}" title="{$image.legend}"  itemprop="image" /></a></li>
+        <li><a href="{$product.cover.bySize.large_default.url}" data-featherlight="image"><img src="{$image.large.url}" alt="{$image.legend}" title="{$image.legend}"  itemprop="image" /></a></li>
       {/foreach}
     </ul>
 	

@@ -8176,6 +8176,7 @@ header#header {
   color: #fff;
   position: relative;
   z-index: 4;
+  min-height: 35px;
   /* User Info */
   /* Shopping Cart*/ }
   .header-nav a, .header-nav span {
@@ -8755,6 +8756,11 @@ body#checkout {
       #block-reassurance ul li span {
         float: left;
         width: 70%; }
+
+.featured-product {
+  clear: both;
+  display: block;
+  padding-top: 20px; }
 
 .gotop {
   position: fixed;

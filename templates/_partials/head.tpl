@@ -23,8 +23,10 @@
 {/block}
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="  crossorigin="anonymous"></script>
 
-
- 
+<link href="{$urls.css_url}theme.css" type="text/css" rel="stylesheet" />
+<script src="{$urls.js_url}bxslider/jquery.bxslider.js"></script>
+ <script src="{$urls.js_url}theme.js"></script>
+ <script src="{$urls.js_url}custom.js"></script>
   
  
 
